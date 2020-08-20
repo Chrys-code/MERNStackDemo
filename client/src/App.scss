@@ -1,0 +1,43 @@
+@import "~bootstrap/scss/bootstrap";
+
+$header-font-size: 24px;
+$secondary-header-font-size: 20px;
+$primary-font-size: 16px;
+$secondary-font-size: 12px;
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: $header-font-size;
+}
+
+h3 {
+  font-size: $secondary-header-font-size;
+}
+
+p {
+  font-size: $primary-font-size;
+}
+
+.container {
+  h2 {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+.posts {
+  padding-top: 30px;
+
+  .single-post {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+  }
+}
